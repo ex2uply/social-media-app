@@ -65,11 +65,7 @@ This project is a social media platform developed using modern web technologies.
 
 ### Desktop View
 
-[Add your desktop screenshots here]
-
-### Mobile View
-
-[Add your mobile screenshots here]
+![image.png](image.png)
 
 ## 🔧 **Setup**
 
