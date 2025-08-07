@@ -5,7 +5,7 @@ import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 
 export const metadata: Metadata = {
-  title: 'My Saved Posts - Connectify',
+  title: 'My Saved Posts - Chatter',
   description: '...',
 }
 

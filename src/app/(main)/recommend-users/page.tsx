@@ -6,7 +6,7 @@ import { getTranslations } from "next-intl/server";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Recommend Users - Connectify",
+  title: "Recommend Users - Chatter",
   description: "...",
 };
 

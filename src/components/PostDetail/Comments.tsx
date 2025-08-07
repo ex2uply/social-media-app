@@ -1,6 +1,6 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Dot } from "lucide-react";
-import "dayjs/locale/tr";
+
 import Image from "next/image";
 import HoverUserProfileCard from "../ui/common/HoverUserProfileCard";
 import { CommentType } from "@/types/types";

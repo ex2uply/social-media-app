@@ -1,6 +1,6 @@
 {
     "auth_page": {
-        "desc": "Join Connectify today and be part of a vibrant community where connections and conversations happen every day. Your voice matters.",
+        "desc": "Join Chatter today and be part of a vibrant community where connections and conversations happen every day. Your voice matters.",
         "forgot_password_text": "Forgot your password?",
         "login_button": "Login",
         "register_form_chance_text": "Don't have an account? Sign up now",
@@ -307,7 +307,7 @@
                 "tab_text_1": "New Messages",
                 "tab_text_2": "Read Messages",
                 "button": "See all Messages",
-                "message_text_1": "John sent you a message."
+                "message_text_1": "Rajesh sent you a message."
             },
             "profile_section": {
                 "tooltip": "Profile",

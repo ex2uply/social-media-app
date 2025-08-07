@@ -13,7 +13,7 @@ const Footer = async () => {
         <Link href=""> {t("links_3")}</Link>
       </nav>
       <div className="text-sm text-gray-500">
-        &copy; 2024 Connectify {t("rights_reserved_text")}
+        &copy; 2024 Chatter {t("rights_reserved_text")}
       </div>
 
       <ChanceLanguageFooter />

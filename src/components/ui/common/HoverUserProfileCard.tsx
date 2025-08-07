@@ -4,7 +4,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "../avatar";
 import { HoverCard, HoverCardContent, HoverCardTrigger } from "../hover-card";
 import { ReactNode } from "react";
 import dayjs from "dayjs";
-import "dayjs/locale/tr";
+
 import FollowButton from "./FollowButton";
 import { useLocale, useTranslations } from "next-intl";
 

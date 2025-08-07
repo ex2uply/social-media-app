@@ -1,6 +1,6 @@
 "use client";
 import { Bell, BellRing, RefreshCcw } from "lucide-react";
-import "dayjs/locale/tr";
+
 import {
   DropdownMenu,
   DropdownMenuContent,

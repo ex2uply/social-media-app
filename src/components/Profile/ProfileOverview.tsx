@@ -7,7 +7,7 @@ import ProfileUserActions from "./ProfileUserActions";
 import { ProfileType } from "@/types/types";
 import dayjs from "dayjs";
 import { getLocale, getTranslations } from "next-intl/server";
-import "dayjs/locale/tr";
+
 
 
 const ProfileOverview = async ({

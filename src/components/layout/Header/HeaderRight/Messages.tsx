@@ -22,8 +22,8 @@ const MessageItem = () => {
     <>
       <DropdownMenuItem className="flex gap-4 items-start ">
         <Avatar className="size-10 xs:size-12 outline outline-primary outline-offset-2">
-          <AvatarImage src="https://i.pravatar.cc/300" alt="" />
-          <AvatarFallback className="text-2xl">CN</AvatarFallback>
+          <AvatarImage src="/defaultprofile.png" alt="" />
+          <AvatarFallback className="text-2xl">RK</AvatarFallback>
         </Avatar>
 
         <div className="space-y-1">
@@ -31,13 +31,10 @@ const MessageItem = () => {
             {t("message_text_1")}
           </h6>
           <p className="line-clamp-3 text-xs">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Perferendis error mollitia, inventore iusto perspiciatis iure
-            blanditiis fugiat atque, aliquam aspernatur, at ea! Sequi distinctio
-            veniam omnis doloribus impedit ipsum repudiandae.
+            Hey! How are you doing? I wanted to check in and see how things are going with your project. Let me know if you need any help or want to catch up soon!
           </p>
           <span className="text-secondary font-semibold text-xs">
-            3 gün önce
+            3 days ago
           </span>
         </div>
       </DropdownMenuItem>

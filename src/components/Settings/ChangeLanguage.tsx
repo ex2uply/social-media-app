@@ -12,7 +12,7 @@ import { useRouter } from "next/navigation";
 import { setUserLocale } from "@/actions/util/locale";
 import { useTranslations } from "next-intl";
 
-const ChangeLanguage = ({ preferLang }: { preferLang: "tr" | "en" }) => {
+const ChangeLanguage = ({ preferLang }: { preferLang: "en" }) => {
   const router = useRouter();
   const t = useTranslations("settings_page.app_settings");
 
@@ -25,21 +25,15 @@ const ChangeLanguage = ({ preferLang }: { preferLang: "tr" | "en" }) => {
       </div>
       <Select
         onValueChange={(value) => {
-          setUserLocale(value as "tr" | "en");
+          setUserLocale(value as "en");
           router.refresh();
         }}
-        defaultValue={preferLang || "tr"}
+        defaultValue={preferLang || "en"}
       >
         <SelectTrigger className="w-max">
           <SelectValue />
         </SelectTrigger>
         <SelectContent>
-          <SelectItem value="tr">
-            <div className="row-center gap-2">
-              <span className="tracking-wide font-bold">TR</span>
-              Türkçe
-            </div>
-          </SelectItem>
           <SelectItem value="en">
             <div className="row-center gap-2">
               <span className="tracking-wide font-bold">EN</span>

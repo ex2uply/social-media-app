@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 import markReadNotify from "@/actions/notifications/markReadNotify";
 import deleteNotify from "@/actions/notifications/deleteNotify";
 import { useLocale, useTranslations } from "next-intl";
-import "dayjs/locale/tr";
+
 
 const NotificationsItem = ({
   readed,

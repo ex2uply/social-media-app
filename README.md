@@ -1,6 +1,6 @@
-# **Social Media App**
+# **Chatter - Social Media Platform**
 
-This project is a social media platform developed using modern web technologies. Users can post, interact, message, and customize their profiles. It supports many modern features such as Turkish and English language support and dark/light mode.
+This project is a social media platform developed using modern web technologies. Users can post, interact, message, and customize their profiles. It supports many modern features such as English language support and dark/light mode.
 
 ### 🔑 **Features:**
 
@@ -26,7 +26,7 @@ This project is a social media platform developed using modern web technologies.
   - Send, read and delete notifications.
 
 - **Other Features:**
-  - Turkish and English language switching.
+  - English language support.
   - Dark/Light mode switching.
   - Profile customization (profile photo, bio, username, etc.).
 
@@ -57,7 +57,7 @@ This project is a social media platform developed using modern web technologies.
 ### 📋 **Other Tools:**
 
 - **Hugging Face Inference API**: Machine learning model for post categorization.
-- **Next Intl**: Multilingual support.
+- **Next Intl**: Internationalization support.
 - **Resend & React Email**: Password reset email sending.
 - **TypeScript**: For type safety and development experience.
 - **uuid**: To create a unique id.
@@ -65,48 +65,18 @@ This project is a social media platform developed using modern web technologies.
 
 ### Desktop View
 
-<img src="https://github.com/user-attachments/assets/83b11f16-cd3a-470d-b85c-ea5e3e84478d" width=500 />
-<img src="https://github.com/user-attachments/assets/a893616d-7c97-402b-97d1-3d70fe5aba6c" width=500 />
-<img src="https://github.com/user-attachments/assets/6f81f72a-f077-4660-a50c-317090828df5" width=500 />
-<img src="https://github.com/user-attachments/assets/2515a35c-f0d8-49e2-bdd1-77fe8ff0c6bd" width=500 />
-<img src="https://github.com/user-attachments/assets/71fad435-3574-4098-991c-1ed69c8ef921" width=500 />
-<img src="https://github.com/user-attachments/assets/6ff93a99-cb51-479a-abb1-f2e98af40f29" width=500 />
-<img src="https://github.com/user-attachments/assets/db22891f-3202-4c59-ac98-d22675320e06" width=500 />
-<img src="https://github.com/user-attachments/assets/824243b5-8164-4640-bdc8-f3555445686d" width=500 />
-<img src="https://github.com/user-attachments/assets/a3aad157-d98c-41c1-80fd-b1111514418c" width=500 />
-<img src="https://github.com/user-attachments/assets/0811b494-6179-41c1-b202-e5040d7ea8ad" width=500 />
-<img src="https://github.com/user-attachments/assets/3ec7eaca-9dd5-4efc-91d1-7d718f3b2d97" width=500 />
-<img src="https://github.com/user-attachments/assets/eae43c4b-e0ce-4526-aac3-c77053e60339" width=500 />
-<img src="https://github.com/user-attachments/assets/38a1eb25-13ef-4f69-b1cd-4d0ae3179011" width=500 />
-<img src="https://github.com/user-attachments/assets/d9778bbb-8737-4c4b-ba13-93f4dacacb45" width=500 />
-<img src="https://github.com/user-attachments/assets/a76c80d6-8873-4e76-b748-1300513f4dc3" width=500 />
-<img src="https://github.com/user-attachments/assets/48681c52-259a-4996-a9ae-627f09353e0c" width=500 />
-<img src="https://github.com/user-attachments/assets/419f2e2f-4c84-44be-b653-6cf892ca7d24" width=500 />
-<img src="https://github.com/user-attachments/assets/a0477394-8b25-4f5b-91c3-72b05a810b03" width=500 />
+[Add your desktop screenshots here]
 
 ### Mobile View
 
-<img src="https://github.com/user-attachments/assets/6d82f18a-a90b-496f-9c7f-b9e93ab52dde" width=300 />
-<img src="https://github.com/user-attachments/assets/7322e72e-7d0a-4eec-8d04-3945b5254270" width=300 />
-<img src="https://github.com/user-attachments/assets/4ea7f81b-1263-4042-8d1b-6ad972fdf376" width=300 />
-<img src="https://github.com/user-attachments/assets/48e6a86a-5f49-46eb-9286-a57ecb9664bc" width=300 />
-<img src="https://github.com/user-attachments/assets/5a0fdcd2-73c2-41eb-a0e9-5cb79eed8d5e" width=300 />
-
-<img src="https://github.com/user-attachments/assets/b53101e4-991e-4e3d-b312-2ae895b46973" width=300 />
-<img src="https://github.com/user-attachments/assets/7132e89d-331d-4fa1-bc37-3da2a686bd1c" width=300 />
-<img src="https://github.com/user-attachments/assets/1199b247-fcb9-4d4d-b51b-36822fe088b6" width=300 />
-<img src="https://github.com/user-attachments/assets/a88418d9-92c4-41b9-92a3-d2649b0b9fa1" width=300 />
-<img src="https://github.com/user-attachments/assets/79550e68-2cb8-43b1-ad26-eb3c40d04d21" width=300 />
-<img src="https://github.com/user-attachments/assets/01b49659-5db4-4b71-8d2c-baeb77a68314" width=300 />
-<img src="https://github.com/user-attachments/assets/6bf63b0c-31fc-49f4-ab66-1bf1408c3d75" width=300 />
-<img src="https://github.com/user-attachments/assets/6f0367d8-081c-4e0c-b1f9-eb5f485bacb5" width=500 />
+[Add your mobile screenshots here]
 
 ## 🔧 **Setup**
 
 1.**Download the repository**
 
 ```
-git clone https://github.com/ex2uply/next-js-social-media-app.git
+git clone <your-repository-url>
 ```
 
 2.**Enter the project directory**
@@ -233,5 +203,5 @@ Go to `http://localhost:3000` in your browser.
 
 ## Contribute 🤝
 
-- You can use the [Issues](https://github.com/ex2uply/next-js-social-media-app) tab for bug reports and suggestions.
+- You can use the Issues tab for bug reports and suggestions.
 - If you want to contribute to the project, create a fork and submit a pull request.

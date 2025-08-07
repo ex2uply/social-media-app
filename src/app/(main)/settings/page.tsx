@@ -10,7 +10,7 @@ import { getTranslations } from "next-intl/server";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Settings - Connectify",
+  title: "Settings - Chatter",
   description: "...",
 };
 

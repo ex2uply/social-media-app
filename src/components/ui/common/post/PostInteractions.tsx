@@ -1,6 +1,6 @@
 "use client";
 import relativeTime from "dayjs/plugin/relativeTime";
-import "dayjs/locale/tr";
+
 import {
   Bookmark,
   ChartNoAxesColumnIncreasing,

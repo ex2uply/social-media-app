@@ -20,7 +20,7 @@ export async function generateMetadata({
 
   if (postDetail === null) {
     return {
-      title: "Post Detail - Connectify",
+      title: "Post Detail - Chatter",
       description: "Post Detail",
     };
   }

@@ -7,9 +7,9 @@ import RefreshButton from "@/components/Home/RefreshButton";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Home - Connectify",
+  title: "Home - Chatter",
   description:
-    "Welcome to Connectify, where your social journey begins! Discover personalized content, stay connected with your community, and make every moment count. Your hub for connection, interaction, and inspiration.",
+    "Welcome to Chatter, where your social journey begins! Discover personalized content, stay connected with your community, and make every moment count. Your hub for connection, interaction, and inspiration.",
 };
 
 interface IGetPostsResponse {

@@ -3,7 +3,7 @@ import { Bookmark, Clock, Heart, Repeat } from "lucide-react";
 import { Separator } from "../ui/separator";
 import { PostType } from "@/types/types";
 import dayjs from "dayjs";
-import "dayjs/locale/tr";
+
 import { useState } from "react";
 import handleLikeToPost from "@/actions/post/likePost";
 import handleRepostToPost from "@/actions/post/repostPost";

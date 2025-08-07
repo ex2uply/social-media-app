@@ -10,21 +10,21 @@ export async function generateMetadata({
   };
 }): Promise<Metadata> {
   return {
-    title: `${params.form === "login" ? "Login" : "Register"} - Connectify`,
+    title: `${params.form === "login" ? "Login" : "Register"} - Chatter`,
     description:
-      "Join Connectify today and be part of a vibrant community where connections and conversations happen every day. Your voice matters.",
+      "Join Chatter today and be part of a vibrant community where connections and conversations happen every day. Your voice matters.",
     openGraph: {
-      title: `${params.form === "login" ? "Login" : "Register"} - Connectify`,
+      title: `${params.form === "login" ? "Login" : "Register"} - Chatter`,
       description:
-        "Join Connectify today and be part of a vibrant community where connections and conversations happen every day. Your voice matters.",
+        "Join Chatter today and be part of a vibrant community where connections and conversations happen every day. Your voice matters.",
       url: `${process.env.NEXT_PUBLIC_BASE_URL}/auth?form=${params.form}`,
       images: [process.env.NEXT_PUBLIC_DEFAULT_LOGO_URL as string],
     },
     twitter: {
       card: "summary_large_image",
-      title: `${params.form === "login" ? "Login" : "Register"} - Connectify`,
+      title: `${params.form === "login" ? "Login" : "Register"} - Chatter`,
       description:
-        "Join Connectify today and be part of a vibrant community where connections and conversations happen every day. Your voice matters.",
+        "Join Chatter today and be part of a vibrant community where connections and conversations happen every day. Your voice matters.",
       images: [process.env.NEXT_PUBLIC_DEFAULT_LOGO_URL as string],
     },
   };

@@ -4,9 +4,9 @@ import Trends from "@/components/Explore/Trends";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Explore - Connectify",
+  title: "Explore - Chatter",
   description:
-    "Dive into the Connectify Explore section and discover trending content, inspiring stories, and new connections. From viral posts to community highlights, Explore is your gateway to endless possibilities.",
+    "Dive into the Chatter Explore section and discover trending content, inspiring stories, and new connections. From viral posts to community highlights, Explore is your gateway to endless possibilities.",
 };
 const Explore = () => {
   return (

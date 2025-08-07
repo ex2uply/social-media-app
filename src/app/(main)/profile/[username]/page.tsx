@@ -23,16 +23,16 @@ export async function generateMetadata({
   });
   if (res.error && res.status === 404) {
     return {
-      title: "Profile - Connectify",
-      description: `Explore a lot of profiles on Connectify. Discover their posts, followers, and more about their journey.`,
+      title: "Profile - Chatter",
+      description: `Explore a lot of profiles on Chatter. Discover their posts, followers, and more about their journey.`,
     };
   }
   return {
-    title: `${params.username}'s Profile - Connectify`,
-    description: `Explore ${params.username}'s profile on Connectify. Discover their posts, followers, and more about their journey.`,
+    title: `${params.username}'s Profile - Chatter`,
+    description: `Explore ${params.username}'s profile on Chatter. Discover their posts, followers, and more about their journey.`,
     openGraph: {
-      title: `${params.username}'s Profile - Connectify`,
-      description: `View ${params.username}'s activities, posts, and connections on Connectify.`,
+      title: `${params.username}'s Profile - Chatter`,
+      description: `View ${params.username}'s activities, posts, and connections on Chatter.`,
       url: `${process.env.NEXT_PUBLIC_BASE_URL}/profile/${params.username}`,
       images: [
         {
@@ -46,7 +46,7 @@ export async function generateMetadata({
     twitter: {
       card: "summary",
       title: `${params.username}'s Profile`,
-      description: `Check out ${params.username}'s profile on Connectify.`,
+      description: `Check out ${params.username}'s profile on Chatter.`,
       images: [
         res.data?.image ||
           (process.env.NEXT_PUBLIC_DEFAULT_PROFILE_URL as string),

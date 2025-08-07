@@ -2,7 +2,7 @@
 import { Clock } from "lucide-react";
 import relativeTime from "dayjs/plugin/relativeTime";
 import dayjs from "dayjs";
-import "dayjs/locale/tr";
+
 import Image from "next/image";
 import { AspectRatio } from "../ui/aspect-ratio";
 import ReactPlayer from "react-player";
