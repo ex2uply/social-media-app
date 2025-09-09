@@ -25,7 +25,7 @@ const ResetPasswordEmail = ({
           <Section className="bg-white rounded-lg p-6 text-center">
             <div className=" mb-6">
               <Img
-                src="https://firebasestorage.googleapis.com/v0/b/social-media-app-52f2d.appspot.com/o/logo.png?alt=media&token=2cc98c35-90d6-4072-a0b8-d09989b27f64"
+                src=""
                 height={250}
                 alt="Chatter"
               />
