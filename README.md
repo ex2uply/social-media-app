@@ -56,7 +56,7 @@ This project is a social media platform developed using modern web technologies.
 
 ### 📋 **Other Tools:**
 
-- **Hugging Face Inference API**: Machine learning model for post categorization.
+- **Hugging Face Inference API**: Machine learning model for post categorization.(Working on it)
 - **Next Intl**: Internationalization support.
 - **Resend & React Email**: Password reset email sending.
 - **TypeScript**: For type safety and development experience.
